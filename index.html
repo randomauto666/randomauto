@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link id="favicon" rel="icon" type="image/svg+xml">
+    <link id="favicon" rel="icon" type="https://i.imgur.com/oFjss4t.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -619,10 +619,24 @@
         async function loadConfig() {
             try {
                 const response = await fetch('config.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const config = await response.json();
                 populatePage(config);
             } catch (error) {
                 console.error('Error loading config:', error);
+                // Show error message to user
+                document.body.innerHTML = `
+                    <div style="display: flex; align-items: center; justify-content: center; min-height: 100vh; flex-direction: column; padding: 2rem; text-align: center;">
+                        <h1 style="color: var(--primary); margin-bottom: 1rem;">⚠️ Fehler beim Laden der Konfiguration</h1>
+                        <p style="margin-bottom: 2rem; opacity: 0.8;">Die config.json konnte nicht geladen werden. Stelle sicher, dass beide Dateien (index.html und config.json) im selben Ordner liegen.</p>
+                        <details style="max-width: 600px; text-align: left; background: var(--surface); padding: 1rem; border-radius: 10px;">
+                            <summary style="cursor: pointer; font-weight: 600; margin-bottom: 0.5rem;">Fehlermeldung anzeigen</summary>
+                            <pre style="overflow-x: auto; font-size: 0.9rem; opacity: 0.7;">${error}</pre>
+                        </details>
+                    </div>
+                `;
             }
         }
 
@@ -647,9 +661,8 @@
             const socialLinks = document.getElementById('socialLinks');
             const socialIcons = {
                 github: '⚡',
-                linkedin: '💼',
-                twitter: '🐦',
-                instagram: '📸'
+                discord: '👾',
+                snapchat: '👻'
             };
             
             for (const [platform, url] of Object.entries(config.social)) {
