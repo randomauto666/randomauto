@@ -1,41 +1,37 @@
 {
-  "name": "Max Mustermann",
-  "title": "Creative Developer & Designer",
-  "description": "Ich entwickle digitale Erlebnisse, die Menschen begeistern.",
-  "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
-  "favicon": "https://api.dicebear.com/7.x/shapes/svg?seed=max",
-  "email": "max@beispiel.de",
-  "location": "Berlin, Deutschland",
+  "name": "RandomAuto / Nico",
+  "title": "Web/Discord Developer & Web Designer",
+  "description": "Ich bin Nico, auch bekannt als RandomAuto. Ich arbeite im Dienste meiner selbst und helfe Menschen bei technischen Schwierigkeiten oder Interessensgebieten.",
+  "image": "https://i.imgur.com/oFjss4t.png",
+  "favicon": "https://i.imgur.com/oFjss4t.png",
+  "email": "web.bothosting@gmail.com",
+  "location": "Landkreis Fürth, Deutschland",
   "social": {
-    "github": "https://github.com/maxmustermann",
-    "linkedin": "https://linkedin.com/in/maxmustermann",
-    "twitter": "https://twitter.com/maxmustermann",
-    "instagram": "https://instagram.com/maxmustermann"
+    "github": "https://github.com/randomauto666",
+    "discord": "https://discord.com/users/1220795527587823738",
+    "snapchat": "https://www.snapchat.com/@satyran666",
   },
   "about": "Seit über 5 Jahren gestalte und entwickle ich digitale Produkte. Meine Leidenschaft liegt in der Schnittstelle zwischen Design und Code, wo ich innovative Lösungen schaffe, die sowohl schön als auch funktional sind.",
   "skills": [
-    "JavaScript & TypeScript",
-    "React & Next.js",
-    "UI/UX Design",
-    "Webflow & Framer",
-    "Python",
-    "Node.js"
+    "Python & HTML",
+    "JavaScript & CSS",
+    "Webdesign & Discord",
   ],
   "projects": [
     {
-      "name": "Portfolio Website",
-      "description": "Eine minimalistische Portfolio-Seite mit modernen Animationen",
-      "link": "https://beispiel.de"
+      "name": "Discord Ticketbot",
+      "description": "Ein kleinerer Ticketbot für Discord mit minimalen Funktionen",
+      "link": "https://randomauto666.github.io/dsgvo"
     },
     {
-      "name": "E-Commerce Platform",
-      "description": "Vollständige Shop-Lösung mit React und Stripe Integration",
-      "link": "https://shop.beispiel.de"
+      "name": "KURA Invite Bot",
+      "description": "Der Einladungsbot für den OPSUCHT KURA Clan",
+      "link": "https://randomauto666.github.io/kura-dsgvo"
     },
     {
-      "name": "Design System",
-      "description": "Wiederverwendbare Komponenten-Bibliothek für schnelle Entwicklung",
-      "link": "https://design.beispiel.de"
+      "name": "Matheformel Sammlung",
+      "description": "Eine Sammlung von 209 verschiedenen Mathematik und Physik Formeln",
+      "link": "https://randomauto666.github.io/mathelotto/formeln.html"
     }
   ],
   "theme": {
