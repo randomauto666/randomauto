@@ -1,21 +1,22 @@
 {
   "name": "RandomAuto / Nico",
-  "title": "Web/Discord Developer & Web Designer",
+  "title": "Web/Discord/Minecraft Developer & Web Designer",
   "description": "Ich bin Nico, auch bekannt als RandomAuto. Ich arbeite im Dienste meiner selbst und helfe Menschen bei technischen Schwierigkeiten oder Interessensgebieten.",
   "image": "https://i.imgur.com/oFjss4t.png",
   "favicon": "https://i.imgur.com/oFjss4t.png",
-  "email": "web.bothosting@gmail.com",
+  "email": "carlbot0815@gmail.com",
   "location": "Landkreis Fürth, Deutschland",
   "social": {
     "github": "https://github.com/randomauto666",
     "discord": "https://discord.com/users/1220795527587823738",
     "snapchat": "https://www.snapchat.com/@satyran666"
   },
-  "about": "Seit über 5 Jahren gestalte und entwickle ich digitale Produkte. Meine Leidenschaft liegt in der Schnittstelle zwischen Design und Code, wo ich innovative Lösungen schaffe, die sowohl schön als auch funktional sind.",
+  "about": "Seit über 7 Jahren gestalte und entwickle ich digitale Produkte. Meine Leidenschaft liegt in der Schnittstelle zwischen Design und Code, wo ich innovative Lösungen schaffe, die sowohl schön als auch funktional sind.",
   "skills": [
     "Python & HTML",
     "JavaScript & CSS",
-    "Webdesign & Discord"
+    "Webdesign & Discord",
+    "Minecraft Plugins & Mods"
   ],
   "projects": [
     {
@@ -24,14 +25,10 @@
       "link": "https://randomauto666.github.io/dsgvo"
     },
     {
-      "name": "KURA Invite Bot",
-      "description": "Der Einladungsbot für den OPSUCHT KURA Clan",
-      "link": "https://randomauto666.github.io/kura-dsgvo"
-    },
     {
-      "name": "Matheformel Sammlung",
-      "description": "Eine Sammlung von 209 verschiedenen Mathematik und Physik Formeln",
-      "link": "https://randomauto666.github.io/mathelotto/formeln.html"
+      "name": "Minanu Website",
+      "description": "Eine Website für die chaotische Streamerin Minanu",
+      "link": "https://discord.techsvc.de:10124"
     }
   ],
   "theme": {
